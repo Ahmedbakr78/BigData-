@@ -1,0 +1,31 @@
+{
+  "routes": {
+    "rows": 500,
+    "unique_route_codes": 500,
+    "distance_min_km": 27,
+    "distance_max_km": 18188
+  },
+  "flights": {
+    "rows": 50000,
+    "unknown_routes": 2500,
+    "negative_passengers": 1000,
+    "zero_passengers": 500,
+    "invalid_fare": 589,
+    "missing_fields": 250,
+    "route_referential_issues_non_unknown": 0
+  },
+  "airlines_reference": {
+    "rows": 100,
+    "unique_hubs": 77
+  },
+  "attendance": {
+    "rows": 100000,
+    "unique_employees": 1000,
+    "invalid_time_slots": 3000,
+    "present_typos": 1246,
+    "invalid_dates": 1000,
+    "missing_departments": 500,
+    "date_min": "2023-01-01",
+    "date_max": "not-a-date"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "schema_errors": {},
+  "metrics": {
+    "routes": {
+      "rows": 500,
+      "unique_route_codes": 500,
+      "distance_min": 27.0,
+      "distance_max": 18188.0,
+      "distance_category_counts": {
+        "short(<1500km)": 200,
+        "medium(1500-3999km)": 175,
+        "long(4000-7999km)": 100,
+        "ultra(>=8000km)": 25
+      }
+    },
+    "flights": {
+      "rows": 50000,
+      "unknown_routes": 2500,
+      "negative_passenger_count": 1000,
+      "zero_passenger_count": 500,
+      "invalid_fare": 589,
+      "missing_required_fields": 418,
+      "referential_issues_non_unknown": 0
+    },
+    "airlines": {
+      "rows": 100,
+      "unique_iata": 100,
+      "unique_hubs": 77
+    },
+    "attendance": {
+      "rows": 100000,
+      "unique_employees": 1000,
+      "invalid_time_slot": 3000,
+      "present_typos": 1246,
+      "invalid_dates": 1000,
+      "missing_department": 500,
+      "date_min": "2023-01-01",
+      "date_max": "not-a-date"
+    }
+  },
+  "task2_expected_preview_top20": [
+    {
+      "routeLabel": "PVG-EWR",
+      "totalRevenue": 26238500,
+      "totalPassengers": 22851
+    },
+    {
+      "routeLabel": "MUC-MNL",
+      "totalRevenue": 22762939,
+      "totalPassengers": 22673
+    },
+    {
+      "routeLabel": "VIE-DPS",
+      "totalRevenue": 21302750,
+      "totalPassengers": 17409
+    },
+    {
+      "routeLabel": "HKG-ORD",
+      "totalRevenue": 20372900,
+      "totalPassengers": 15451
+    },
+    {
+      "routeLabel": "MEX-LED",
+      "totalRevenue": 20246047,
+      "totalPassengers": 16506
+    },
+    {
+      "routeLabel": "EZE-CMN",
+      "totalRevenue": 19511368,
+      "totalPassengers": 18185
+    },
+    {
+      "routeLabel": "PVG-ORY",
+      "totalRevenue": 18987714,
+      "totalPassengers": 16535
+    },
+    {
+      "routeLabel": "AKL-DUB",
+      "totalRevenue": 17739800,
+      "totalPassengers": 17334
+    },
+    {
+      "routeLabel": "BER-MIA",
+      "totalRevenue": 17641626,
+      "totalPassengers": 17536
+    },
+    {
+      "routeLabel": "SGN-MEX",
+      "totalRevenue": 17585300,
+      "totalPassengers": 14899
+    },
+    {
+      "routeLabel": "SOF-BOG",
+      "totalRevenue": 17412452,
+      "totalPassengers": 16191
+    },
+    {
+      "routeLabel": "PER-ADD",
+      "totalRevenue": 17402657,
+      "totalPassengers": 14991
+    },
+    {
+      "routeLabel": "LGW-MIA",
+      "totalRevenue": 17290483,
+      "totalPassengers": 19306
+    },
+    {
+      "routeLabel": "SCL-SOF",
+      "totalRevenue": 16961200,
+      "totalPassengers": 17130
+    },
+    {
+      "routeLabel": "GIG-LHR",
+      "totalRevenue": 16863979,
+      "totalPassengers": 15871
+    },
+    {
+      "routeLabel": "ORD-ALG",
+      "totalRevenue": 16295212,
+      "totalPassengers": 17635
+    },
+    {
+      "routeLabel": "MAD-FRA",
+      "totalRevenue": 16232839,
+      "totalPassengers": 68436
+    },
+    {
+      "routeLabel": "OSL-FRA",
+      "totalRevenue": 15873573,
+      "totalPassengers": 68980
+    },
+    {
+      "routeLabel": "ARN-LHR",
+      "totalRevenue": 15786474,
+      "totalPassengers": 64378
+    },
+    {
+      "routeLabel": "YVR-MAN",
+      "totalRevenue": 15752220,
+      "totalPassengers": 17551
+    }
+  ],
+  "task18_expected": [
+    {
+      "time_slot": "Morning",
+      "attendance": "Present: 52935"
+    },
+    {
+      "time_slot": "Afternoon",
+      "attendance": "Present: 15811"
+    },
+    {
+      "time_slot": "Evening",
+      "attendance": "Present: 5393"
+    },
+    {
+      "time_slot": "Invalid",
+      "attendance": "Present: 2346"
+    }
+  ]
+}
